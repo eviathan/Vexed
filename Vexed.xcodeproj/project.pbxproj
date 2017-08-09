@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3198CD01F3B912700ECBBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198CCF1F3B912700ECBBBE /* AppDelegate.swift */; };
+		D3198CD21F3B912700ECBBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198CD11F3B912700ECBBBE /* ViewController.swift */; };
+		D3198CD51F3B912700ECBBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3198CD31F3B912700ECBBBE /* Main.storyboard */; };
+		D3198CD71F3B912700ECBBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3198CD61F3B912700ECBBBE /* Assets.xcassets */; };
+		D3198CDA1F3B912700ECBBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3198CD81F3B912700ECBBBE /* LaunchScreen.storyboard */; };
+		D3198CE51F3B912700ECBBBE /* VexedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198CE41F3B912700ECBBBE /* VexedTests.swift */; };
+		D3198CF01F3B912700ECBBBE /* VexedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198CEF1F3B912700ECBBBE /* VexedUITests.swift */; };
+		D3198CFE1F3B917B00ECBBBE /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198CFD1F3B917B00ECBBBE /* Flag.swift */; };
+		D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D001F3B92B300ECBBBE /* CrossFlag.swift */; };
+		D3198D061F3B939A00ECBBBE /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D051F3B939A00ECBBBE /* FlagView.swift */; };
+		D3198D091F3B964C00ECBBBE /* FlagDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */; };
+		D3198D0E1F3BA21900ECBBBE /* FlagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D0D1F3BA21900ECBBBE /* FlagType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3198CE11F3B912700ECBBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3198CC41F3B912600ECBBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3198CCB1F3B912700ECBBBE;
+			remoteInfo = Vexed;
+		};
+		D3198CEC1F3B912700ECBBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3198CC41F3B912600ECBBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3198CCB1F3B912700ECBBBE;
+			remoteInfo = Vexed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3198CCC1F3B912700ECBBBE /* Vexed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vexed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3198CCF1F3B912700ECBBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3198CD11F3B912700ECBBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3198CD41F3B912700ECBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3198CD61F3B912700ECBBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3198CD91F3B912700ECBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3198CDB1F3B912700ECBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3198CE01F3B912700ECBBBE /* VexedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VexedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3198CE41F3B912700ECBBBE /* VexedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexedTests.swift; sourceTree = "<group>"; };
+		D3198CE61F3B912700ECBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3198CEB1F3B912700ECBBBE /* VexedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VexedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3198CEF1F3B912700ECBBBE /* VexedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexedUITests.swift; sourceTree = "<group>"; };
+		D3198CF11F3B912700ECBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3198CFD1F3B917B00ECBBBE /* Flag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		D3198D001F3B92B300ECBBBE /* CrossFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFlag.swift; sourceTree = "<group>"; };
+		D3198D051F3B939A00ECBBBE /* FlagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
+		D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagDataSource.swift; sourceTree = "<group>"; };
+		D3198D0D1F3BA21900ECBBBE /* FlagType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3198CC91F3B912700ECBBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CDD1F3B912700ECBBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CE81F3B912700ECBBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3198CC31F3B912600ECBBBE = {
+			isa = PBXGroup;
+			children = (
+				D3198CCE1F3B912700ECBBBE /* Vexed */,
+				D3198CE31F3B912700ECBBBE /* VexedTests */,
+				D3198CEE1F3B912700ECBBBE /* VexedUITests */,
+				D3198CCD1F3B912700ECBBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3198CCD1F3B912700ECBBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3198CCC1F3B912700ECBBBE /* Vexed.app */,
+				D3198CE01F3B912700ECBBBE /* VexedTests.xctest */,
+				D3198CEB1F3B912700ECBBBE /* VexedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3198CCE1F3B912700ECBBBE /* Vexed */ = {
+			isa = PBXGroup;
+			children = (
+				D3198D071F3B963900ECBBBE /* Delegates */,
+				D3198D041F3B936500ECBBBE /* Views */,
+				D3198CFF1F3B92A800ECBBBE /* Flags */,
+				D3198CCF1F3B912700ECBBBE /* AppDelegate.swift */,
+				D3198CD11F3B912700ECBBBE /* ViewController.swift */,
+				D3198CD31F3B912700ECBBBE /* Main.storyboard */,
+				D3198CD61F3B912700ECBBBE /* Assets.xcassets */,
+				D3198CD81F3B912700ECBBBE /* LaunchScreen.storyboard */,
+				D3198CDB1F3B912700ECBBBE /* Info.plist */,
+				D3198D0D1F3BA21900ECBBBE /* FlagType.swift */,
+			);
+			path = Vexed;
+			sourceTree = "<group>";
+		};
+		D3198CE31F3B912700ECBBBE /* VexedTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3198CE41F3B912700ECBBBE /* VexedTests.swift */,
+				D3198CE61F3B912700ECBBBE /* Info.plist */,
+			);
+			path = VexedTests;
+			sourceTree = "<group>";
+		};
+		D3198CEE1F3B912700ECBBBE /* VexedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3198CEF1F3B912700ECBBBE /* VexedUITests.swift */,
+				D3198CF11F3B912700ECBBBE /* Info.plist */,
+			);
+			path = VexedUITests;
+			sourceTree = "<group>";
+		};
+		D3198CFF1F3B92A800ECBBBE /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				D3198CFD1F3B917B00ECBBBE /* Flag.swift */,
+				D3198D001F3B92B300ECBBBE /* CrossFlag.swift */,
+			);
+			name = Flags;
+			sourceTree = "<group>";
+		};
+		D3198D041F3B936500ECBBBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3198D051F3B939A00ECBBBE /* FlagView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D3198D071F3B963900ECBBBE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3198CCB1F3B912700ECBBBE /* Vexed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3198CF41F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "Vexed" */;
+			buildPhases = (
+				D3198CC81F3B912700ECBBBE /* Sources */,
+				D3198CC91F3B912700ECBBBE /* Frameworks */,
+				D3198CCA1F3B912700ECBBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vexed;
+			productName = Vexed;
+			productReference = D3198CCC1F3B912700ECBBBE /* Vexed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3198CDF1F3B912700ECBBBE /* VexedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3198CF71F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedTests" */;
+			buildPhases = (
+				D3198CDC1F3B912700ECBBBE /* Sources */,
+				D3198CDD1F3B912700ECBBBE /* Frameworks */,
+				D3198CDE1F3B912700ECBBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3198CE21F3B912700ECBBBE /* PBXTargetDependency */,
+			);
+			name = VexedTests;
+			productName = VexedTests;
+			productReference = D3198CE01F3B912700ECBBBE /* VexedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3198CEA1F3B912700ECBBBE /* VexedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3198CFA1F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedUITests" */;
+			buildPhases = (
+				D3198CE71F3B912700ECBBBE /* Sources */,
+				D3198CE81F3B912700ECBBBE /* Frameworks */,
+				D3198CE91F3B912700ECBBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3198CED1F3B912700ECBBBE /* PBXTargetDependency */,
+			);
+			name = VexedUITests;
+			productName = VexedUITests;
+			productReference = D3198CEB1F3B912700ECBBBE /* VexedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3198CC41F3B912600ECBBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian Williams";
+				TargetAttributes = {
+					D3198CCB1F3B912700ECBBBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D3198CDF1F3B912700ECBBBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3198CCB1F3B912700ECBBBE;
+					};
+					D3198CEA1F3B912700ECBBBE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3198CCB1F3B912700ECBBBE;
+					};
+				};
+			};
+			buildConfigurationList = D3198CC71F3B912700ECBBBE /* Build configuration list for PBXProject "Vexed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3198CC31F3B912600ECBBBE;
+			productRefGroup = D3198CCD1F3B912700ECBBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3198CCB1F3B912700ECBBBE /* Vexed */,
+				D3198CDF1F3B912700ECBBBE /* VexedTests */,
+				D3198CEA1F3B912700ECBBBE /* VexedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3198CCA1F3B912700ECBBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3198CDA1F3B912700ECBBBE /* LaunchScreen.storyboard in Resources */,
+				D3198CD71F3B912700ECBBBE /* Assets.xcassets in Resources */,
+				D3198CD51F3B912700ECBBBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CDE1F3B912700ECBBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CE91F3B912700ECBBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3198CC81F3B912700ECBBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3198CD21F3B912700ECBBBE /* ViewController.swift in Sources */,
+				D3198D0E1F3BA21900ECBBBE /* FlagType.swift in Sources */,
+				D3198D061F3B939A00ECBBBE /* FlagView.swift in Sources */,
+				D3198D091F3B964C00ECBBBE /* FlagDataSource.swift in Sources */,
+				D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */,
+				D3198CFE1F3B917B00ECBBBE /* Flag.swift in Sources */,
+				D3198CD01F3B912700ECBBBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CDC1F3B912700ECBBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3198CE51F3B912700ECBBBE /* VexedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3198CE71F3B912700ECBBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3198CF01F3B912700ECBBBE /* VexedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3198CE21F3B912700ECBBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3198CCB1F3B912700ECBBBE /* Vexed */;
+			targetProxy = D3198CE11F3B912700ECBBBE /* PBXContainerItemProxy */;
+		};
+		D3198CED1F3B912700ECBBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3198CCB1F3B912700ECBBBE /* Vexed */;
+			targetProxy = D3198CEC1F3B912700ECBBBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3198CD31F3B912700ECBBBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3198CD41F3B912700ECBBBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3198CD81F3B912700ECBBBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3198CD91F3B912700ECBBBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3198CF21F3B912700ECBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3198CF31F3B912700ECBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3198CF51F3B912700ECBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vexed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.Vexed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3198CF61F3B912700ECBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vexed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.Vexed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D3198CF81F3B912700ECBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VexedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.VexedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vexed.app/Vexed";
+			};
+			name = Debug;
+		};
+		D3198CF91F3B912700ECBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VexedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.VexedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vexed.app/Vexed";
+			};
+			name = Release;
+		};
+		D3198CFB1F3B912700ECBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VexedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.VexedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vexed;
+			};
+			name = Debug;
+		};
+		D3198CFC1F3B912700ECBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VexedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iko.VexedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vexed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3198CC71F3B912700ECBBBE /* Build configuration list for PBXProject "Vexed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3198CF21F3B912700ECBBBE /* Debug */,
+				D3198CF31F3B912700ECBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3198CF41F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "Vexed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3198CF51F3B912700ECBBBE /* Debug */,
+				D3198CF61F3B912700ECBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3198CF71F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3198CF81F3B912700ECBBBE /* Debug */,
+				D3198CF91F3B912700ECBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3198CFA1F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3198CFB1F3B912700ECBBBE /* Debug */,
+				D3198CFC1F3B912700ECBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3198CC41F3B912600ECBBBE /* Project object */;
+}
