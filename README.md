@@ -1,2 +1,2 @@
-# Vexxed
+# Vexed
 Flag generator iOS App
