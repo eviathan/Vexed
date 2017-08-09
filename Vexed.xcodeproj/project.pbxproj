@@ -18,7 +18,9 @@
 		D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D001F3B92B300ECBBBE /* CrossFlag.swift */; };
 		D3198D061F3B939A00ECBBBE /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D051F3B939A00ECBBBE /* FlagView.swift */; };
 		D3198D091F3B964C00ECBBBE /* FlagDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */; };
-		D3198D0E1F3BA21900ECBBBE /* FlagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D0D1F3BA21900ECBBBE /* FlagType.swift */; };
+		D3198D0E1F3BA21900ECBBBE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D0D1F3BA21900ECBBBE /* Enums.swift */; };
+		D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */; };
+		D3198D131F3BB9F200ECBBBE /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,9 @@
 		D3198D001F3B92B300ECBBBE /* CrossFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFlag.swift; sourceTree = "<group>"; };
 		D3198D051F3B939A00ECBBBE /* FlagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 		D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagDataSource.swift; sourceTree = "<group>"; };
-		D3198D0D1F3BA21900ECBBBE /* FlagType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagType.swift; sourceTree = "<group>"; };
+		D3198D0D1F3BA21900ECBBBE /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagExtensions.swift; sourceTree = "<group>"; };
+		D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		D3198CCE1F3B912700ECBBBE /* Vexed */ = {
 			isa = PBXGroup;
 			children = (
+				D3198D0F1F3BB82200ECBBBE /* Extensions */,
 				D3198D071F3B963900ECBBBE /* Delegates */,
 				D3198D041F3B936500ECBBBE /* Views */,
 				D3198CFF1F3B92A800ECBBBE /* Flags */,
@@ -116,7 +121,7 @@
 				D3198CD61F3B912700ECBBBE /* Assets.xcassets */,
 				D3198CD81F3B912700ECBBBE /* LaunchScreen.storyboard */,
 				D3198CDB1F3B912700ECBBBE /* Info.plist */,
-				D3198D0D1F3BA21900ECBBBE /* FlagType.swift */,
+				D3198D0D1F3BA21900ECBBBE /* Enums.swift */,
 			);
 			path = Vexed;
 			sourceTree = "<group>";
@@ -162,6 +167,15 @@
 				D3198D081F3B964C00ECBBBE /* FlagDataSource.swift */,
 			);
 			name = Delegates;
+			sourceTree = "<group>";
+		};
+		D3198D0F1F3BB82200ECBBBE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */,
+				D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3198D131F3BB9F200ECBBBE /* UIColorExtensions.swift in Sources */,
 				D3198CD21F3B912700ECBBBE /* ViewController.swift in Sources */,
-				D3198D0E1F3BA21900ECBBBE /* FlagType.swift in Sources */,
+				D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */,
+				D3198D0E1F3BA21900ECBBBE /* Enums.swift in Sources */,
 				D3198D061F3B939A00ECBBBE /* FlagView.swift in Sources */,
 				D3198D091F3B964C00ECBBBE /* FlagDataSource.swift in Sources */,
 				D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */,
@@ -551,6 +567,7 @@
 				D3198CF61F3B912700ECBBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3198CF71F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +576,7 @@
 				D3198CF91F3B912700ECBBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3198CFA1F3B912700ECBBBE /* Build configuration list for PBXNativeTarget "VexedUITests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +585,7 @@
 				D3198CFC1F3B912700ECBBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

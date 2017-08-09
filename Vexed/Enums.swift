@@ -11,3 +11,7 @@ import Foundation
 enum FlagType {
     case CrossFlag
 }
+
+enum BackgroundType {
+    case Simple
+}

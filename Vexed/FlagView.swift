@@ -12,10 +12,13 @@ class FlagView: UIView {
     
     weak var dataSource: FlagDataSource?
     
+    var displayView: UIView = UIView()
+    
     override func draw(_ rect: CGRect) {
         let flag = dataSource?.flag
-        if let flagShape = flag?.drawFlag(rect: rect) {
-            self.layer.addSublayer(flagShape)
+        if let flagView = flag?.drawFlag(rect: rect) {
+            self.subviews.forEach { $0.removeFromSuperview() }
+            self.addSubview(flagView)
         }
     }
 }
