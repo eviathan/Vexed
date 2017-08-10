@@ -16,4 +16,12 @@ extension UIColor {
         let randomBlue:CGFloat = CGFloat(drand48())
         return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
     }
+    
+    static func random(amount: Int) -> [UIColor] {
+        var output: [UIColor] = [UIColor]()
+        for _ in 0...amount {
+            output.append(random())
+        }
+        return output
+    }
 }
