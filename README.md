@@ -11,16 +11,16 @@ Flag generator iOS App
 ### Flag Modes
 
 * Plain
-⋅⋅* Moslty used for composite backgrounds but occasionally as its own flag
+    * Moslty used for composite backgrounds but occasionally as its own flag
 * Striped
-⋅⋅* Vertical/ Horizontal
-⋅⋅* Stripe amount (2-15)
-⋅⋅* _Possible_ diagonal
+    * Vertical/ Horizontal
+    * Stripe amount (2-15)
+    * _Possible_ diagonal
 * Checkered
 * Stars
 * Composite
-⋅⋅* Flags which contain multiple layers
-⋅⋅* Flags nested inside other flags (see american flag)
-⋅⋅* Ffor cross types double cross
+    * Flags which contain multiple layers
+    * Flags nested inside other flags (see american flag)
+    * Ffor cross types double cross
 * _Possible_ Emblems
-⋅⋅* A select list of emblams or icons i.e. hammer & sickle to place at specific places in a flag
+    * A select list of emblams or icons i.e. hammer & sickle to place at specific places in a flag
