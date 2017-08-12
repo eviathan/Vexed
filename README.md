@@ -4,5 +4,5 @@ Flag generator iOS App
 
 ## Cross flags
 
-![](http://imgur.com/a/3K3WN)
-![](http://imgur.com/MD23Pmw)
+![](http://i.imgur.com/1P14I2B.png)
+![](http://i.imgur.com/MD23Pmw.png)
