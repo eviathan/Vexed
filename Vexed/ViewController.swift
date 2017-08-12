@@ -12,7 +12,7 @@ class ViewController: UIViewController, FlagDataSource {
     
     @IBOutlet weak var flagView: FlagView!
     
-    var flag: Flag = CrossFlag()
+    var flag: Flag = StripeFlag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class ViewController: UIViewController, FlagDataSource {
     }
     
     @IBAction func updateFlag(_ sender: Any) {
-        flag = generateNewFlag(type: .CrossFlag)
+        flag = generateNewFlag(type: .StripeFlag)
         flagView.setNeedsDisplay()
     }
     
@@ -33,6 +33,9 @@ class ViewController: UIViewController, FlagDataSource {
             break
         case .CrossFlag:
             flag = CrossFlag()
+            break
+        case .StripeFlag:
+            flag = StripeFlag()
             break
         }
         
