@@ -21,6 +21,7 @@
 		D3198D0E1F3BA21900ECBBBE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D0D1F3BA21900ECBBBE /* Enums.swift */; };
 		D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */; };
 		D3198D131F3BB9F200ECBBBE /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */; };
+		D3DC7DF91F3CDB3200DBF0C5 /* StripeFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D3198D0D1F3BA21900ECBBBE /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagExtensions.swift; sourceTree = "<group>"; };
 		D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				D3198CFD1F3B917B00ECBBBE /* Flag.swift */,
 				D3198D001F3B92B300ECBBBE /* CrossFlag.swift */,
+				D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */,
 			);
 			name = Flags;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DC7DF91F3CDB3200DBF0C5 /* StripeFlag.swift in Sources */,
 				D3198D131F3BB9F200ECBBBE /* UIColorExtensions.swift in Sources */,
 				D3198CD21F3B912700ECBBBE /* ViewController.swift in Sources */,
 				D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */,
