@@ -1,6 +1,7 @@
 # Vexed
-Flag generator iOS App
 
+## Description
+An iOS app to randomly generate flags
 
 ## Cross flags
 
