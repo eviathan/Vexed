@@ -4,6 +4,7 @@ Flag generator iOS App
 
 ## TODO
 
+* Add weighting for popular flag colours so not completely random
 * Move these items from here into project backlog
 * Implement flag type randomizer
 * Add auto incrementing version o=post build script from Salt project
