@@ -9,6 +9,7 @@
 import Foundation
 
 enum FlagType {
+    case SolidFlag
     case CrossFlag
 }
 

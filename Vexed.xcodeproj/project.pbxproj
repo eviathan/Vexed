@@ -21,6 +21,7 @@
 		D3198D0E1F3BA21900ECBBBE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D0D1F3BA21900ECBBBE /* Enums.swift */; };
 		D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */; };
 		D3198D131F3BB9F200ECBBBE /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */; };
+		D3B902C11F3F260F00131488 /* SolidFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B902C01F3F260F00131488 /* SolidFlag.swift */; };
 		D3DC7DF91F3CDB3200DBF0C5 /* StripeFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		D3198D0D1F3BA21900ECBBBE /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		D3198D101F3BB83500ECBBBE /* FlagExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagExtensions.swift; sourceTree = "<group>"; };
 		D3198D121F3BB9F200ECBBBE /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		D3B902C01F3F260F00131488 /* SolidFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidFlag.swift; sourceTree = "<group>"; };
 		D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +154,7 @@
 				D3198CFD1F3B917B00ECBBBE /* Flag.swift */,
 				D3198D001F3B92B300ECBBBE /* CrossFlag.swift */,
 				D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */,
+				D3B902C01F3F260F00131488 /* SolidFlag.swift */,
 			);
 			name = Flags;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */,
 				D3198CFE1F3B917B00ECBBBE /* Flag.swift in Sources */,
 				D3198CD01F3B912700ECBBBE /* AppDelegate.swift in Sources */,
+				D3B902C11F3F260F00131488 /* SolidFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
