@@ -20,7 +20,7 @@ class ViewController: UIViewController, FlagDataSource {
     }
     
     @IBAction func updateFlag(_ sender: Any) {
-        flag = generateNewFlag(type: .SolidFlag)
+        flag = generateNewFlag(type: .CrossFlag)
         flagView.setNeedsDisplay()
     }
     

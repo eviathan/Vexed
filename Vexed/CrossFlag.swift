@@ -30,19 +30,19 @@ class CrossFlag : Flag {
     var backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
     var crossColor = UIColor.random()
     
-    func drawFlag(rect: CGRect) -> UIView {
+    func drawFlag(rect: CGRect) -> CALayer {
         
-        let view: UIView = UIView(frame: rect)
+        let layer: CAShapeLayer = CAShapeLayer()
         
         randomiseValues()
         
         // Draw BG
-        view.layer.addSublayer(drawBackground(rect: rect, type:.Simple))
+        layer.addSublayer(drawBackground(rect: rect, type:.Simple))
         
         // Draw Cross
-        view.layer.addSublayer(drawCross(rect: rect))
+        layer.addSublayer(drawCross(rect: rect))
         
-        return view;
+        return layer;
     }
     
     func randomiseValues(){

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class StripeFlag: Flag {
-    func drawFlag(rect: CGRect) -> UIView {
-        return UIView()
+    func drawFlag(rect: CGRect) -> CALayer {
+        return CALayer()
     }
 }

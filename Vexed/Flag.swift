@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 protocol Flag {
-    func drawFlag(rect: CGRect) -> UIView;
+    func drawFlag(rect: CGRect) -> CALayer;
 }
