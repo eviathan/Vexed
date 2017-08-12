@@ -1,24 +1,18 @@
 //
-//  SolidFlag.swift
+//  CheckeredFlag.swift
 //  Vexed
 //
-//  Created by Brian on 12/08/2017.
+//  Created by Brian Williams on 12/08/2017.
 //  Copyright © 2017 Brian Williams. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class SolidFlag: Flag {
-    
-    var color: UIColor = UIColor.random()
-    
+class CheckeredFlag: Flag {
     func draw(rect: CGRect) -> CALayer {
         
         let layer: CAShapeLayer = CAShapeLayer()
-        
-        // Draw BG
-        layer.addSublayer(drawBackground(rect: rect, type:.Simple))
         
         return layer;
     }

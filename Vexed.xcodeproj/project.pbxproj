@@ -24,6 +24,7 @@
 		D3B902C11F3F260F00131488 /* SolidFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B902C01F3F260F00131488 /* SolidFlag.swift */; };
 		D3DC7DF91F3CDB3200DBF0C5 /* StripeFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */; };
 		D3F79A471F3FAD3B003641DB /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F79A461F3FAD3B003641DB /* NumberExtensions.swift */; };
+		D3F79A491F3FBADE003641DB /* CheckeredFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D3B902C01F3F260F00131488 /* SolidFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidFlag.swift; sourceTree = "<group>"; };
 		D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeFlag.swift; sourceTree = "<group>"; };
 		D3F79A461F3FAD3B003641DB /* NumberExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckeredFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				D3198D001F3B92B300ECBBBE /* CrossFlag.swift */,
 				D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */,
 				D3B902C01F3F260F00131488 /* SolidFlag.swift */,
+				D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */,
 			);
 			name = Flags;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				D3198CD21F3B912700ECBBBE /* ViewController.swift in Sources */,
 				D3198D111F3BB83500ECBBBE /* FlagExtensions.swift in Sources */,
 				D3198D0E1F3BA21900ECBBBE /* Enums.swift in Sources */,
+				D3F79A491F3FBADE003641DB /* CheckeredFlag.swift in Sources */,
 				D3198D061F3B939A00ECBBBE /* FlagView.swift in Sources */,
 				D3198D091F3B964C00ECBBBE /* FlagDataSource.swift in Sources */,
 				D3198D011F3B92B300ECBBBE /* CrossFlag.swift in Sources */,
