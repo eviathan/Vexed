@@ -11,10 +11,14 @@ import UIKit
 
 extension Flag {
     func drawBackground(rect: CGRect, type: BackgroundType) -> CAShapeLayer {
+        return drawBackground(rect: rect, type: type, color: UIColor.random())
+    }
+    
+    func drawBackground(rect: CGRect, type: BackgroundType, color: UIColor) -> CAShapeLayer {
         let layer = CAShapeLayer()
         
         layer.path = UIBezierPath(rect: rect).cgPath
-        layer.fillColor = UIColor.random().cgColor
+        layer.fillColor = color.cgColor
         
         return layer
     }

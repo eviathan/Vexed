@@ -28,6 +28,9 @@ class ViewController: UIViewController, FlagDataSource {
         var flag: Flag?
         
         switch type {
+        case .SolidFlag:
+            flag = SolidFlag()
+            break
         case .CrossFlag:
             flag = CrossFlag()
             break
