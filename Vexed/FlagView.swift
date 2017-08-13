@@ -16,7 +16,7 @@ class FlagView: UIView {
     
     override func draw(_ rect: CGRect) {
         let flag = dataSource?.flag
-        if let flagLayer = flag?.drawFlag(rect: rect) {
+        if let flagLayer = flag?.draw(rect: rect) {
             self.layer.sublayers = nil
             self.layer.addSublayer(flagLayer)
         }

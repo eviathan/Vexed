@@ -30,7 +30,7 @@ class CrossFlag : Flag {
     var backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
     var crossColor = UIColor.random()
     
-    func drawFlag(rect: CGRect) -> CALayer {
+    func draw(rect: CGRect) -> CALayer {
         
         let layer: CAShapeLayer = CAShapeLayer()
         
