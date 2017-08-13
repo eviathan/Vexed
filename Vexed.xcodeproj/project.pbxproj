@@ -25,6 +25,7 @@
 		D3DC7DF91F3CDB3200DBF0C5 /* StripeFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */; };
 		D3F79A471F3FAD3B003641DB /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F79A461F3FAD3B003641DB /* NumberExtensions.swift */; };
 		D3F79A491F3FBADE003641DB /* CheckeredFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */; };
+		D3F79A4B1F3FEE9B003641DB /* CompositeFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F79A4A1F3FEE9B003641DB /* CompositeFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeFlag.swift; sourceTree = "<group>"; };
 		D3F79A461F3FAD3B003641DB /* NumberExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
 		D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckeredFlag.swift; sourceTree = "<group>"; };
+		D3F79A4A1F3FEE9B003641DB /* CompositeFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				D3DC7DF81F3CDB3200DBF0C5 /* StripeFlag.swift */,
 				D3B902C01F3F260F00131488 /* SolidFlag.swift */,
 				D3F79A481F3FBADE003641DB /* CheckeredFlag.swift */,
+				D3F79A4A1F3FEE9B003641DB /* CompositeFlag.swift */,
 			);
 			name = Flags;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				D3198CD01F3B912700ECBBBE /* AppDelegate.swift in Sources */,
 				D3F79A471F3FAD3B003641DB /* NumberExtensions.swift in Sources */,
 				D3B902C11F3F260F00131488 /* SolidFlag.swift in Sources */,
+				D3F79A4B1F3FEE9B003641DB /* CompositeFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
