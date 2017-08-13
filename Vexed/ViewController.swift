@@ -12,7 +12,7 @@ class ViewController: UIViewController, FlagDataSource {
     
     @IBOutlet weak var flagView: FlagView!
     
-    var flag: Flag = CheckeredFlag()
+    var flag: Flag = StripeFlag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class ViewController: UIViewController, FlagDataSource {
     }
     
     @IBAction func updateFlag(_ sender: Any) {
-        flag = generateNewFlag(type: .CheckeredFlag)
+        flag = generateNewFlag(type: .StripeFlag)
         flagView.setNeedsDisplay()
     }
     
