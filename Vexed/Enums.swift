@@ -15,6 +15,11 @@ enum FlagType {
     case CheckeredFlag
 }
 
+enum CompositeMode {
+    case Overlay
+    case Corner
+}
+
 enum Orientation: UInt32 {
     case Horizontal
     case Vertical
