@@ -49,7 +49,7 @@ class StripeFlag: Flag {
         }
     }
     
-    func drawFlag(rect: CGRect) -> CALayer {
+    func draw(rect: CGRect) -> CALayer {
         let layer = CAShapeLayer()
         
         for i in 0...amountOfStripes {

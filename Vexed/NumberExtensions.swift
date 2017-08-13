@@ -14,3 +14,12 @@ extension CGFloat {
         return CGFloat(arc4random()) / CGFloat(UInt32.max)
     }
 }
+
+extension Float {
+    static func random(start: Float, end: Float) -> Float {
+        let normalisedVal =  Float(arc4random()) / Float(UINT32_MAX)
+        
+        return (normalisedVal * (end - start)) + start;
+        
+    }
+}

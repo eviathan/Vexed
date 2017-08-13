@@ -13,7 +13,7 @@ class SolidFlag: Flag {
     
     var color: UIColor = UIColor.random()
     
-    func drawFlag(rect: CGRect) -> CALayer {
+    func draw(rect: CGRect) -> CALayer {
         
         let layer: CAShapeLayer = CAShapeLayer()
         
