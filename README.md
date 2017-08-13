@@ -11,4 +11,4 @@ An iOS app to randomly generate flags
 ## Checkered Flags
 
 ![](http://i.imgur.com/paTQVPE.png)
-![](http://i.imgur.com/7w2Cjtp.png)
+![](http://i.imgur.com/7w2Cjtp.png) 
