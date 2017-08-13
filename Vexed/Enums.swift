@@ -12,6 +12,7 @@ enum FlagType {
     case SolidFlag
     case CrossFlag
     case StripeFlag
+    case CheckeredFlag
 }
 
 enum Orientation: UInt32 {
